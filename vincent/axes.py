@@ -52,7 +52,9 @@ class Axis(GrammarClass):
 
     @grammar(grammar_type=Number, grammar_name='titleOffset')
     def title_offset(value):
-        """Number: Offset in pixels from the axis on which to place the title"""
+        """Number: Offset in pixels from the axis on which to place the
+        title.
+        """
 
     @grammar(bool)
     def grid(value):
